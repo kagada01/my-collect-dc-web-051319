@@ -2,7 +2,7 @@ def my_collect(array)
 storageOne = []
 i = 0
   while (i < array.length) do 
-    yield(array[i])
+    yield (array[i])
     storageOne.push(array[i].upcase)
     i += 1
   end
