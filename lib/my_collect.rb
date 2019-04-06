@@ -1,6 +1,5 @@
 def my_collect(array)
 storageOne = []
-storageTwo = []
 i = 0
   while (i < array.length) do 
     yield(array[i])
@@ -10,4 +9,4 @@ i = 0
     storageOne
 end
 
-#my_collect(array[i]) { |name| storageTwo.push(name.split(" ").first storageTwo)}
+#my_collect(array[i]) { |name| storageTwo = [] storageTwo.push(name.split(" ").first storageTwo)}
