@@ -3,8 +3,9 @@ storageOne = []
 storageTwo = []
 i = 0
   while (i < array.length) do 
-    storageOne.push(array[i].upcase)
     yield(array[i])
+    storageOne.push(array[i].upcase)
+    
     i += 1
   end
     storageOne
