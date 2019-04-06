@@ -9,4 +9,4 @@ i = 0
     storageOne
 end
 
-#my_collect(array[i]) { |name| storageTwo = [] storageTwo.push(name.split(" ").first storageTwo)}
+my_collect(array[i]) { |name| storageTwo = [] storageTwo.push(name.split(" ").first storageTwo)}
