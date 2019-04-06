@@ -5,4 +5,5 @@ i = 0
     storageOne.push(array[i])
     i += 1
   end
+  yield (array[i])
 end
