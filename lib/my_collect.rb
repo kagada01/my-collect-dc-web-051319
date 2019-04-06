@@ -8,5 +8,3 @@ i = 0
   end
     storageOne
 end
-
-my_collect(array[i]) { |name| storageTwo = [] storageTwo.push(name.split(" ").first storageTwo)}
